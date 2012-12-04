@@ -1,4 +1,2 @@
-gsapp-ooops
-===========
+# GaragesaleApp.me
 
-OOOOPS gsapp page

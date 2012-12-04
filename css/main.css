@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400);
+@import url(http://fonts.googleapis.com/css?family=Corben:700);
+
+body {color:#424241;font-family: 'Droid Sans';}
+hr {background: url(../img/bgline.png) repeat-x scroll -8px;height: 8px;border:0;}
+
+.follow {text-align: right;}
+.follow h2 {font-size: 20px;}
+.follow a {background-color: #CBCBCB;display: inline-block;padding: 10px 17px;border-radius: 40px;color: #fff;opacity: 0.9;}
+.follow a:hover {opacity: 1}
+.logo {font-family: 'Corben'; margin-top: 20px;position: relative;font-size: 46px;}
+.logo small { color: #F66;font-size: 36px;margin-left: -6px;}
+.info {margin-top: 20px;margin-bottom: 20px;}
+.info h1,.info h2 {font-family: 'Corben';}
+.info h1 { color: #F66;font-size: 130px;line-height: 130px;}
+.info h2 {font-size: 40px; color: #e8e4e4;}
+
+.twitter {background: url('../img/twitter.png') no-repeat 10px;}
+.facebook {background: url('../img/facebook.png') no-repeat 14px;}
+.github {background: url('../img/github.png') no-repeat 10px;}
+
+@media (min-width: 1200px) {
+    .info h1 {font-size: 150px; line-height: 150px;}
+    .info h2 {font-size: 50px;}
+    .info {margin-top: 40px;margin-bottom: 40px; }
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+    .info h1 {font-size: 105px; line-height: 150px;}
+    .info h2 {font-size: 32px;}
+    .info {margin-top: 10px;margin-bottom: 10px;}
+}
+
+@media (max-width: 767px) {
+    .logo {font-size: 35px; text-align: center;}
+    .logo small {font-size: 30px;}
+    .follow {text-align: center;}
+    .info {margin-top: 0px;margin-bottom: 0px; text-align: center}
+    .info h1 {font-size:100px; line-height: 100px;}
+}
