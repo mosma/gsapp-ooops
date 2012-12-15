@@ -10,7 +10,7 @@ a {color: #ff6666;text-decoration: none;}
 a:hover {color: #ff5555;text-decoration: none;}
 .follow {text-align: right;}
 .follow h2 {font-size: 20px;float: right;margin-top: 32px;margin-right: 10px;}
-.follow a {/*background-color: #CBCBCB;*/display: inline-block;padding: 10px 20px;border-radius: 40px;color: #fff;opacity: 0.9;float: right;margin-top: 41px;}
+.follow a {/*background-color: #CBCBCB;*/display: inline-block;padding: 12px 20px;border-radius: 40px;color: #fff;opacity: 0.9;float: right;margin-top: 41px;}
 .follow a:hover {opacity: 1}
 .logo {font-family: 'Corben'; margin-top: 30px;position: relative;font-size: 46px;}
 .logo small { color: #F66;font-size: 36px;margin-left: -6px;}
@@ -20,7 +20,7 @@ a:hover {color: #ff5555;text-decoration: none;}
 .info h2 {font-size: 40px; color: #e8e4e4;}
 
 .twitter {background: url('../img/twitter.png') no-repeat 10px;}
-.facebook {background: url('../img/facebook.png') no-repeat 14px;}
+.facebook {background: url('../img/facebook.png') no-repeat 12px;}
 .github {background: url('../img/github.png') no-repeat 10px;}
 
 @media (min-width: 1200px) {
